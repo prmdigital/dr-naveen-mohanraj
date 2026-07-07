@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Read(//c/Users/user/AppData/Local/Temp/claude/C--Dr-Naveen-Mohanraj/0f2e7ad5-5485-49b7-a957-8a320ebf5b3c/scratchpad/**)"
+    ]
+  }
+}
