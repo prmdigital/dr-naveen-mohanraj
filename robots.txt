@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prmdigital.github.io/dr-naveen-mohanraj/sitemap.xml
