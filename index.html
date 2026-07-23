@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="18Nmt3qZMZXkBTmmQYSsjcJ1eAg5TqRp5YVTSCYB5cA">
 <title>Dr. Naveen Mohanraj | Pediatrician in Langley, BC (FRCPC)</title>
-<meta name="description" content="Dr. Naveen Mohanraj is an FRCPC pediatrician in Langley, BC providing family-centred care for children — ADHD, autism, development, allergies and more. By referral.">
+<meta name="description" content="Dr. Naveen Mohanraj, FRCPC pediatrician in Langley, BC. Family-centred care for children: ADHD, autism, development, allergies and eczema. By referral.">
 <link rel="canonical" href="https://prmdigital.github.io/dr-naveen-mohanraj/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#5c70ff">
@@ -27,7 +28,9 @@
 <meta name="twitter:title" content="Dr. Naveen Mohanraj | Pediatrician in Langley, BC (FRCPC)">
 <meta name="twitter:description" content="Family-centred pediatric care for children from birth through adolescence in Langley, BC. By referral.">
 <meta name="twitter:image" content="https://prmdigital.github.io/dr-naveen-mohanraj/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="Dr. Naveen Mohanraj, FRCPC pediatrician in Langley, BC">
 
+<link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
@@ -39,16 +42,18 @@
  "@context": "https://schema.org",
  "@graph": [
   {
-   "@type": "Physician",
+   "@type": ["Physician", "MedicalBusiness"],
    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#practice",
    "name": "Dr. Naveen Mohanraj — Pediatrician",
    "description": "Family-centred pediatric care in Langley, BC for children from birth through adolescence, including general medical, developmental, and behavioural concerns.",
    "url": "https://prmdigital.github.io/dr-naveen-mohanraj/",
    "image": "https://prmdigital.github.io/dr-naveen-mohanraj/assets/dr-naveen-mohanraj-pediatrician.jpg",
+   "logo": "https://prmdigital.github.io/dr-naveen-mohanraj/assets/logo.png",
    "telephone": "+1-778-726-7175",
    "faxNumber": "+1-604-879-4335",
    "medicalSpecialty": "Pediatric",
    "isAcceptingNewPatients": true,
+   "currenciesAccepted": "CAD",
    "address": {
     "@type": "PostalAddress",
     "streetAddress": "5796 Glover Road, Unit 101",
@@ -59,14 +64,55 @@
    },
    "hasMap": "https://maps.app.goo.gl/dmhcWihUXEsuX8rz8",
    "areaServed": [
-    "Langley BC",
-    "Fraser Valley",
-    "Metro Vancouver"
+    {"@type": "City", "name": "Langley", "addressRegion": "BC", "addressCountry": "CA"},
+    {"@type": "AdministrativeArea", "name": "Fraser Valley"},
+    {"@type": "AdministrativeArea", "name": "Metro Vancouver"}
    ],
    "containedInPlace": {
     "@type": "MedicalClinic",
     "name": "Langley Medical Clinic"
-   }
+   },
+   "employee": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#person"
+   },
+   "knowsAbout": [
+    "General Pediatrics",
+    "Neonatology",
+    "ADHD",
+    "Autism Spectrum Disorder",
+    "Developmental Delay",
+    "Learning Disabilities",
+    "Child Development",
+    "Behavioural Health",
+    "Anxiety",
+    "Depression",
+    "Asthma",
+    "Pediatric Allergy",
+    "Nutrition",
+    "Growth and Development",
+    "Eating Disorders",
+    "Obesity",
+    "Constipation",
+    "Celiac Disease",
+    "Eczema"
+   ],
+   "availableService": [
+    {
+     "@type": "MedicalProcedure",
+     "name": "General pediatric consultation",
+     "description": "Comprehensive physical health management for children from birth through adolescence, including asthma, allergies, nutrition, growth, eating disorders, constipation, celiac disease and eczema."
+    },
+    {
+     "@type": "MedicalProcedure",
+     "name": "Developmental and behavioural assessment",
+     "description": "Assessment and coordinated support for developmental delay, autism spectrum disorder, ADHD, learning disabilities, anxiety and depression."
+    },
+    {
+     "@type": "MedicalProcedure",
+     "name": "Acute pediatric care",
+     "description": "Acute pediatric care provided at Ridge Meadows Hospital."
+    }
+   ]
   },
   {
    "@type": "Person",
@@ -75,11 +121,93 @@
    "honorificPrefix": "Dr.",
    "honorificSuffix": "MBBS, MD, MRCPCH, FRCPC",
    "jobTitle": "Pediatrician",
+   "description": "Dr. Naveen Mohanraj is a pediatrician with over 15 years of experience caring for children and young people, with a special interest in pediatric behavioural and developmental health including ADHD, autism spectrum disorder and developmental delays.",
    "image": "https://prmdigital.github.io/dr-naveen-mohanraj/assets/dr-naveen-mohanraj-pediatrician.jpg",
    "url": "https://prmdigital.github.io/dr-naveen-mohanraj/",
+   "telephone": "+1-778-726-7175",
+   "gender": "Male",
    "worksFor": {
     "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#practice"
    },
+   "workLocation": {
+    "@type": "Place",
+    "name": "Langley Medical Clinic",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "5796 Glover Road, Unit 101",
+     "addressLocality": "Langley",
+     "addressRegion": "BC",
+     "postalCode": "V3A 4H9",
+     "addressCountry": "CA"
+    }
+   },
+   "affiliation": {
+    "@type": "Hospital",
+    "name": "Ridge Meadows Hospital"
+   },
+   "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pediatrician",
+    "occupationalCategory": "29-1221.00",
+    "occupationLocation": {
+     "@type": "City",
+     "name": "Langley, BC"
+    }
+   },
+   "hasCredential": [
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "degree",
+     "name": "MBBS — Bachelor of Medicine and Bachelor of Surgery",
+     "educationalLevel": "Undergraduate medical degree",
+     "dateCreated": "2009",
+     "recognizedBy": {"@type": "Country", "name": "India"}
+    },
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "degree",
+     "name": "MD Pediatrics — Postgraduate specialization in pediatric medicine",
+     "dateCreated": "2012",
+     "recognizedBy": {"@type": "Country", "name": "India"}
+    },
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "professional certification",
+     "name": "MRCPCH — Membership of the Royal College of Paediatrics and Child Health",
+     "dateCreated": "2014",
+     "recognizedBy": {
+      "@type": "Organization",
+      "name": "Royal College of Paediatrics and Child Health"
+     }
+    },
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "fellowship",
+     "name": "Fellowship in Neonatology",
+     "dateCreated": "2016",
+     "recognizedBy": {
+      "@type": "Organization",
+      "name": "Oxford University Hospitals"
+     }
+    },
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "professional certification",
+     "name": "CCT — Certificate of Completion of Training in Paediatrics",
+     "dateCreated": "2021",
+     "recognizedBy": {"@type": "Country", "name": "United Kingdom"}
+    },
+    {
+     "@type": "EducationalOccupationalCredential",
+     "credentialCategory": "professional certification",
+     "name": "FRCPC — Fellow of the Royal College of Physicians of Canada, Pediatrics",
+     "dateCreated": "2024",
+     "recognizedBy": {
+      "@type": "Organization",
+      "name": "Royal College of Physicians and Surgeons of Canada"
+     }
+    }
+   ],
    "memberOf": [
     {
      "@type": "Organization",
@@ -113,9 +241,121 @@
    "url": "https://prmdigital.github.io/dr-naveen-mohanraj/",
    "name": "Dr. Naveen Mohanraj — Pediatrician in Langley, BC",
    "inLanguage": "en-CA",
+   "publisher": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#practice"
+   },
    "about": {
     "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#person"
    }
+  },
+  {
+   "@type": "ProfilePage",
+   "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#webpage",
+   "url": "https://prmdigital.github.io/dr-naveen-mohanraj/",
+   "name": "Dr. Naveen Mohanraj | Pediatrician in Langley, BC (FRCPC)",
+   "description": "Dr. Naveen Mohanraj, FRCPC pediatrician in Langley, BC. Family-centred care for children: ADHD, autism, development, allergies and eczema. By referral.",
+   "inLanguage": "en-CA",
+   "isPartOf": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#website"
+   },
+   "about": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#person"
+   },
+   "mainEntity": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#person"
+   },
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#primaryimage",
+    "url": "https://prmdigital.github.io/dr-naveen-mohanraj/assets/dr-naveen-mohanraj-pediatrician.jpg",
+    "caption": "Dr. Naveen Mohanraj, FRCPC pediatrician in Langley, BC"
+   },
+   "datePublished": "2026-07-07",
+   "dateModified": "2026-07-23",
+   "breadcrumb": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#breadcrumb"
+   },
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", "#about h2", "#contact h2"]
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://prmdigital.github.io/dr-naveen-mohanraj/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#faq",
+   "isPartOf": {
+    "@id": "https://prmdigital.github.io/dr-naveen-mohanraj/#webpage"
+   },
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How do I book an appointment with Dr. Naveen Mohanraj?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Appointments are available by referral only. Please ask your family physician or nurse practitioner to send a referral to our office. Once your referral is received and reviewed, our office will contact you to arrange an appointment if appropriate."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where is Dr. Naveen Mohanraj's pediatric practice located?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dr. Mohanraj practises at Langley Medical Clinic, 5796 Glover Road, Unit 101, Langley, BC V3A 4H9. He also provides acute pediatric care at Ridge Meadows Hospital. The office phone number is (778) 726-7175 and the fax number is (604) 879-4335."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What conditions does Dr. Naveen Mohanraj treat?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dr. Mohanraj manages medical concerns including asthma, allergies, nutrition, growth and development, eating disorders, obesity, constipation, celiac disease, and eczema and other dermatological conditions. He also supports neurobehavioural concerns including developmental delay, autism spectrum disorder, attention deficit hyperactivity disorder (ADHD), learning disabilities, anxiety and depression."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are Dr. Naveen Mohanraj's qualifications?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dr. Mohanraj completed his MBBS in 2009 and MD in Pediatrics in 2012 in India, obtained MRCPCH in the United Kingdom in 2014, completed a Fellowship in Neonatology at Oxford University Hospitals in 2016, received his Certificate of Completion of Training (CCT) in Paediatrics in the UK in 2021, and became a Fellow of the Royal College of Physicians of Canada (FRCPC) in Pediatrics in 2024. He has over 15 years of pediatric experience."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does Dr. Naveen Mohanraj see children for ADHD and autism?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Dr. Mohanraj has a special interest in pediatric behavioural and developmental health, including neurodivergence. This includes ADHD, autism spectrum disorder, developmental delays, and other neurodevelopmental presentations. Early identification and coordinated support make a lasting difference."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Dr. Naveen Mohanraj accepting new patients?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dr. Mohanraj accepts new pediatric patients by referral only. A family physician or nurse practitioner must send a referral to the office, which will be reviewed before an appointment is arranged."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What should I do in a pediatric medical emergency?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For medical emergencies, please call 911 or visit your nearest emergency room immediately. This website and the practice do not provide emergency medical services."
+     }
+    }
+   ]
   }
  ]
 }
@@ -519,6 +759,8 @@
     background-attachment: fixed; -webkit-font-smoothing: antialiased;
   }
   a { color: inherit; text-decoration: none; }
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 100; padding: 10px 16px; background: #5c70ff; color: #fff; border-radius: 0 0 8px 0; font-size: 14px; font-weight: 600; }
+    .skip-link:focus { left: 0; }
   button { font-family: inherit; cursor: pointer; }
   svg { display: block; }
   @keyframes float  { 0%,100%{transform:translateY(0)}  50%{transform:translateY(-10px)} }
@@ -552,7 +794,7 @@
 </style>
 </head>
 <body>
-<main>
+<a class="skip-link" href="#hero">Skip to main content</a>
 <header style="position: sticky; top: 0px; z-index: 50; width: 100%; border-bottom: 1px solid rgba(219, 227, 255, 0.75); background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(20px);">
   <div style="max-width: 1152px; margin: 0px auto; padding: 0px 24px;">
     <div style="display: flex; height: 72px; align-items: center; justify-content: space-between; gap: 16px;">
@@ -592,7 +834,9 @@
       <a href="#approach" onclick="document.getElementById('mobile-menu').style.display='none'">Approach</a>
       <a href="#contact" onclick="document.getElementById('mobile-menu').style.display='none'">Contact</a>
       <a href="#contact" class="mobile-cta" onclick="document.getElementById('mobile-menu').style.display='none'">Get in Touch</a>
-    </div></header><section id="hero" style="padding: 88px 0px 80px; position: relative; overflow: hidden;">
+    </div></header>
+<main>
+<section id="hero" style="padding: 88px 0px 80px; position: relative; overflow: hidden;">
   <div style="max-width: 1152px; margin: 0px auto; padding: 0px 24px;">
     <div style="display: flex; flex-wrap: wrap; gap: 56px; align-items: center;">
 
@@ -1056,7 +1300,7 @@
         </div>
         <div>
           <p style="font-size: 11px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255, 255, 255, 0.5); margin-bottom: 6px;">Phone &amp; Fax</p>
-          <p style="font-size: 15px; font-weight: 600; color: rgb(255, 255, 255); line-height: 1.45;">Phone: (778) 726-7175</p>
+          <p style="font-size: 15px; font-weight: 600; color: rgb(255, 255, 255); line-height: 1.45;">Phone: <a href="tel:+17787267175" aria-label="Call Dr. Naveen Mohanraj's office at 7 7 8, 7 2 6, 7 1 7 5">(778) 726-7175</a></p>
           <p style="font-size: 13px; color: rgba(255, 255, 255, 0.55); margin-top: 4px; line-height: 1.5;">Fax: (604) 879-4335</p>
         </div>
       </div>
@@ -1097,14 +1341,16 @@
         <p style="font-size: 15px; line-height: 1.65; color: rgba(255, 255, 255, 0.85);">For medical emergencies, please call 911 or visit your nearest emergency room immediately.</p>
       </div>
     </div>
-  </div></div><footer style="background: rgb(11, 18, 32); border-top: 1px solid rgba(255, 255, 255, 0.08);">
+  </div></div>
+</main>
+<footer style="background: rgb(11, 18, 32); border-top: 1px solid rgba(255, 255, 255, 0.08);">
   <div style="max-width: 1152px; margin: 0px auto; padding: 64px 24px 0px;">
     <div style="display: flex; flex-wrap: wrap; gap: 48px;">
 
       
       <div style="flex: 1.2 1 0%; min-width: min(100%, 280px); display: flex; flex-direction: column; gap: 20px;">
         <div style="display: flex; align-items: center; gap: 12px;">
-          <img src="assets/logo.png" alt="Dr. Naveen Mohanraj logo" width="160" height="160" style="height: 40px; width: 40px; border-radius: 12px; object-fit: contain; background: rgb(255, 255, 255); box-shadow: rgba(92, 112, 255, 0.25) 0px 1px 4px; flex: 0 0 auto;">
+          <img loading="lazy" decoding="async" src="assets/logo.png" alt="Dr. Naveen Mohanraj logo" width="160" height="160" style="height: 40px; width: 40px; border-radius: 12px; object-fit: contain; background: rgb(255, 255, 255); box-shadow: rgba(92, 112, 255, 0.25) 0px 1px 4px; flex: 0 0 auto;">
           <span>
             <span style="display: block; font-size: 16px; font-weight: 600; font-family: Montserrat, sans-serif; color: rgb(255, 255, 255); line-height: 1.1;">Dr. Naveen Mohanraj</span>
             <span style="display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(255, 255, 255, 0.45); margin-top: 2px;">FRCPC · Pediatrician</span>
@@ -1142,7 +1388,7 @@
         <h3 style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.22em; color: rgba(255, 255, 255, 0.5); margin-bottom: 16px; font-family: Inter, sans-serif;">Information</h3>
         <div style="display: flex; flex-direction: column; gap: 10px;">
           <span style="font-size: 14px; color: rgba(255, 255, 255, 0.6);">Langley, BC, Canada</span>
-          <span style="font-size: 14px; color: rgba(255, 255, 255, 0.6);">(778) 726-7175</span>
+          <a href="tel:+17787267175" style="font-size: 14px; color: rgba(255, 255, 255, 0.6);">(778) 726-7175</a>
           <span style="font-size: 14px; color: rgba(255, 255, 255, 0.6);">By referral only</span>
           <a href="#contact" class="scpa" style="font-size: 14px; color: rgba(92, 112, 255, 0.85); transition: color 0.15s;">How referrals work</a>
         </div>
@@ -1158,6 +1404,5 @@
       </div>
     </div>
   </div></footer>
-</main>
 </body>
 </html>
