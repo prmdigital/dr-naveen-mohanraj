@@ -1,2 +1,4 @@
-# Local build / deploy copy — GitHub Pages serves from the repo root, not from here
+# Local build / deploy copies — GitHub Pages serves from the repo root, not from here
 /dist/
+/dist-hostinger/
+/*.zip
