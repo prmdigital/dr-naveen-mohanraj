@@ -1,0 +1,2 @@
+# Local build / deploy copy — GitHub Pages serves from the repo root, not from here
+/dist/
